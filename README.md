@@ -32,4 +32,5 @@ To run the program, first install the following libraries by using pip:
 - urllib3
 
 To execute the program, type the following in the command prompt: python "Web crawler.py"
+
 After the program is executed, an input will be prompted. This input will be used as the query for getting the initial seed pages from Google search. Please type a query and press enter.
