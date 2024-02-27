@@ -1,3 +1,6 @@
+
+The goal of this project is to create a web crawler that can estimate the percentage of Polish, Chinese, and German webpages on the internet.
+
 Python program
 - Web crawler.py
 
@@ -9,17 +12,16 @@ Log files
 	- Query used: “wiki”
 	- 10000 pages crawled, 3314 pages sampled 
 
-Explain.txt - Descriptions of functions, ideas, and limitations of the program. 
+Explain.txt 
+- Descriptions of functions, ideas, and limitations of the program. 
 
 Running the program:
-
 Libraries that need to be installed first by using pip:
-- googlesearch-python
-- requests
-- lxml
-- langdetect
-- urllib3
+	- googlesearch-python
+	- requests
+	- lxml
+	- langdetect
+	- urllib3
 
-To execute the program, type the following in the command prompt:
-python "Web crawler.py"
+To execute the program, type the following in the command prompt:  python "Web crawler.py"
 After the program is executed, an input will be prompted. This input will be used as the query for getting the initial seed pages from Google search. Please type a query and press enter.
